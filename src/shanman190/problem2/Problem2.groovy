@@ -7,6 +7,8 @@ package shanman190.problem2
 //
 // By considering the terms in the Fibonacci sequence whose values do not
 // exceed four million, find the sum of the even-valued terms.
+
+// Original solution
 def total = 0, fibber = new Fibber()
 
 while(true) {
@@ -16,3 +18,8 @@ while(true) {
 }
 
 println total
+
+// Improved solution
+fib = [1, 2]
+while (fib.last() <= 4000000) fib << fib[-1] + fib[-2]
+println(fib[0..-2].sum { it % 2 == 0 ? it : 0 })
