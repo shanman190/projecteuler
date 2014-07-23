@@ -1,4 +1,4 @@
-package shanman190.problem1;
+package problem1;
 
 import java.util.stream.IntStream;
 

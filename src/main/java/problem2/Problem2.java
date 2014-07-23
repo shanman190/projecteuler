@@ -1,15 +1,10 @@
-package shanman190.problem2;
+package problem2;
 
 import java.util.ArrayList;
 import java.util.List;
 
-//import java.util.HashMap;
-//import java.util.Map;
-
 public class Problem2 {
 
-//	private static Map<Long, Long> memo;
-	
 	public static void main(String[] args) {
 		List<Long> fib = new ArrayList<>();
 		fib.add(1L);

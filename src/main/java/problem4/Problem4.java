@@ -1,4 +1,4 @@
-package shanman190.problem4;
+package problem4;
 
 public class Problem4 {
 
